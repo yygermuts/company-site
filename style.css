@@ -900,3 +900,71 @@ section.clients{
     }
 
     
+
+    @media (min-width: 450px) and (max-width:800px){
+
+        header{
+            position: relative;
+        }
+
+        nav{
+            position:absolute;
+            z-index: 100;
+            background-color: rgba(0,0,0,0.9);
+            width: 50vw;
+            height: calc(100vh - 100px);
+            top: 100px;
+            right: 0;
+        }
+
+        .menu ul{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .menu li{
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu li a{
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 25px;
+            padding: 0 10px 0 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu li.active a{
+            color: #b28756;
+            border-bottom: none;
+        }
+
+        .menu-open{
+            width: 35px;
+            margin-right: 20px;
+        }
+
+        .logo{
+            margin-left: 5px;
+        }
+
+        .menu nav {
+            display: none; /* O menu começa oculto */
+            opacity: 0;
+            transition: opacity 1s ease;
+        }
+        
+        .menu nav.show {
+            display: flex; /* Exibe o menu quando a classe 'show' é adicionada */
+            justify-content: center;
+            opacity: 1;
+        }
+        
+        .menu img.menu-open {
+            cursor: pointer; /* Cursor de clique para o ícone do menu */
+        }
+    } 
