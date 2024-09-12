@@ -731,6 +731,82 @@ section.clients{
         margin-top: 10px;
     }
 
+    .section-map{
+        display: flex;
+        position: relative;
+        height: 500px;
+        justify-content: center;
+        
+    }
+
+    .mapImage{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        position: relative;
+        background-image: url('/mapa.jpg');
+        background-size: cover;
+    }
+
+
+    .blur{
+        position: absolute;
+       
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #00000033;
+        z-index: 10000;
+    
+    }
+
+    .mapInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+        row-gap: 20px;
+        padding: 20px;
+        width: 500px;
+        height: 250px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        position: absolute;
+        z-index: 1000000;
+        box-shadow: 0 10px 20px black;
+    }
+
+   .map-info--description{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+   }
+
+
+   .map-info--description a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    
+   }
+
+   .map-info--img{
+    background-color:#999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+   }
+
+   .map-info--text{
+    margin-left: 10px;
+   }
+
     .footer{
         background-color: #000;
         height: 300px;
