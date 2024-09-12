@@ -36,6 +36,9 @@ header{
     width: 150px;
 }
 
+.menu-open{
+    display: none;
+}
 
 
 .menu{
@@ -944,11 +947,12 @@ section.clients{
         }
 
         .menu-open{
+            display: flex;
             width: 35px;
             margin-right: 20px;
         }
 
-        .logo{
+        .logo{  
             margin-left: 5px;
         }
 
@@ -967,4 +971,98 @@ section.clients{
         .menu img.menu-open {
             cursor: pointer; /* Cursor de clique para o ícone do menu */
         }
-    } 
+
+        .section-aboutus {
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+
+        .section-aboutus--left {
+            align-items: center;
+            margin-bottom: 25px;
+            padding: 0 30px;
+        }   
+
+        .section-aboutus2{
+            flex-direction: column;
+            padding-bottom: 60px;
+        }
+
+        .section-team--area{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        div.sliders {
+            flex-direction: column;
+            align-items: center;
+            width: 100vw;
+        }
+
+        div.slide{
+            margin-top: 20px;
+        }
+
+        div.slide:first-child{
+            margin-top: none;
+        }
+
+        .prices{
+            flex-direction: column;
+        }
+        
+        .price{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+            width: 235px;
+            height: 315px;
+            margin-top: 20px;
+            padding-top: 40px;
+        }
+
+        .price h5{
+            font-size: 15px;
+        }
+
+        .price h4{
+            font-size: 40px;
+        }
+
+        .price p{
+            font-size: 15px;
+        }
+
+        .button2{
+            font-size: 20px;
+        }
+
+        .default .section-title{
+            font-size: 40px;
+        }
+
+        .default .section-desc{
+            font-size: 20px;
+        }
+
+        .default.light {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        }
+
+    
+
+
+    @media (max-width: 450px){
+
+        
+
+    }
