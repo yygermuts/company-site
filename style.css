@@ -81,7 +81,7 @@ header{
 .banner{
     height: calc(100vh - 100px);
     background-color: #333;
-    background: url('/complementos/bg.jpg');
+    background: url('complementos/bg.jpg');
     background-size: cover;
     background-position: bottom;
     overflow: hidden;
@@ -413,7 +413,7 @@ width: 100%;
 }
 
 .bg-team{
-    background-image: url(/complementos/bg.jpg);
+    background-image: url('complementos/bg.jpg');
     background-size: cover;
     background-position: center;
     padding: 0;
@@ -748,7 +748,7 @@ section.clients{
         justify-content: center;
         width: 100vw;
         position: relative;
-        background-image: url('/mapa.jpg');
+        background-image: url('mapa.jpg');
         background-size: cover;
     }
 
