@@ -84,7 +84,7 @@ header{
 .banner{
     height: calc(100vh - 100px);
     background-color: #333;
-    background: url('/complementos/bg.jpg');
+    background: url('complementos/bg.jpg');
     background-size: cover;
     background-position: bottom;
     overflow: hidden;
